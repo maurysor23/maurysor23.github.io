@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body{
+      background-color: burlywood;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 150px;
+    }
+
+    h1{
+      text-align: center;
+      background-color:gray;
+      color:white;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    input[type=text], select {
+      text-align: center;
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 100%;
+      background-color:gray;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=email], select {
+      text-align: center;
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit]:hover {
+      background-color:gray;
+    }
+    
+    </style>
+
+  <title>COMENTARIOS</title>
+
+</head>
+<body>
+
+  <h1>COMENTARIO RESPECTO AL TRABAJO FINAL</h1><br>
+
+  <form id="form" method="post">
+    <label>NOMBRE</label>
+    <input type="text" name="nombre" id="nombre" required placeholder="ingrese su nombre">
+    <label>APELLIDO</label>
+    <input type="text" name="apellido" id="apellido" required placeholder="ingrese su apellido">
+    <label>EMAIL</label>
+    <input type="email" name="email" id="email" required placeholder="ingrese su email">
+    <label>COMENTARIO</label>
+    <input type="text" name="comentario" id="comentario" required placeholder="ingrese su comentario">
+    <input type="submit" value="ENVIAR">
+  </form> 
+  
+  <script>
+
+    
+
+    /**
+     *hola profesor muy buenos dias,tarde 
+     *ante todo agradecer por esta breve capoacitacion que nos dicto en el cual me fue de mucha ayuda para seguir incorporando conocimiento respecto a la programacion
+     *queria aclarar que en este documento de HTML, esta incluido las funciones de CSS Y JAVASCRIP
+     *lo hice de este modo dado que es corto el contenido de este documento y para evitar el envio de varios doc
+     *en el documento de HTML del curriculum vitae si esta incluido por separado las hojas de estilo de CCS y JAVASCRIP 
+     */
+
+    const nombre = document.getElementById("nombre")
+    const apellido = document.getElementById("apellido")
+    const email = document.getElementById("email")
+    const comentario = document.getElementById("comentario")
+    const form = document.getElementById("form")
+
+  </script>
+</body>
+</html>
